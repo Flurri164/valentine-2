@@ -1,0 +1,164 @@
+.heart {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAyNSAyMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7Ij4gICAgPGcgaWQ9IlBsYW4tZGUtdHJhdmFpbDEiIHRyYW5zZm9ybT0ibWF0cml4KDAuOTc1ODY3LDAsMCwxLC0yMi4yNzIsMCkiPiAgICAgICAgPHJlY3QgeD0iMjIuODIzIiB5PSIwIiB3aWR0aD0iMjUuMTc3IiBoZWlnaHQ9IjIxLjg3MyIgc3R5bGU9ImZpbGw6bm9uZTsiLz4gICAgICAgIDxjbGlwUGF0aCBpZD0iX2NsaXAxIj4gICAgICAgICAgICA8cmVjdCB4PSIyMi44MjMiIHk9IjAiIHdpZHRoPSIyNS4xNzciIGhlaWdodD0iMjEuODczIi8+ICAgICAgICA8L2NsaXBQYXRoPiAgICAgICAgPGcgY2xpcC1wYXRoPSJ1cmwoI19jbGlwMSkiPiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDEuMDI0NzMsMCwwLDEsLTEuMzQyNjcsLTEzLjc0NjgpIj4gICAgICAgICAgICAgICAgPGc+ICAgICAgICAgICAgICAgICAgICA8Zz4gICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzYsMThDMzUsMTYuMiAzMy4xLDE1IDMwLjksMTVDMjcuNiwxNSAyNSwxOC4xIDI1LDIxLjRDMjUsMjQuNyAyOC41LDMxLjQgMzYsMzRDNDMuNSwzMS40IDQ3LDI0LjcgNDcsMjEuNEM0NywxOC4xIDQ0LjQsMTUgNDEuMSwxNUMzOC45LDE1IDM3LDE2LjIgMzYsMThaIiBzdHlsZT0iZmlsbDpub25lO3N0cm9rZTpyZ2IoMjQ4LDk0LDk0KTtzdHJva2Utd2lkdGg6MnB4OyIvPiAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+");
+  background-repeat: no-repeat;
+
+  /* animation-name: love;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  } */
+}
+
+.heart{
+    bottom: 0;
+    left: 0;
+    animation: love 5s ease-in-out infinite;
+  }
+  .heart:nth-child(2) {
+    bottom: 0;
+    left: 5%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 3.6s;
+  
+  }
+  .heart:nth-child(3) {
+    bottom: 0;
+    left: 10%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 6.2s;
+  }
+  .heart:nth-child(4) {
+    bottom: 0;
+    left: 15%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 2s;
+  
+  }
+  .heart:nth-child(5) {
+    bottom: 0;
+    left: 20%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 5.5s;
+  }
+  .heart:nth-child(6) {
+    bottom: 0;
+    left: 25%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 5s;
+  
+  }
+  .heart:nth-child(7) {
+    bottom: 0;
+    left: 30%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 2.7s;
+  }
+  .heart:nth-child(8) {
+    bottom: 0;
+    left: 35%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 8s;
+  
+  }
+  .heart:nth-child(9) {
+    bottom: 0;
+    left: 40%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 6.8s;
+  }
+  .heart:nth-child(10) {
+    bottom: 0;
+    left: 45%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 4s;
+  
+  }
+  .heart:nth-child(11) {
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 7.6s;
+  }
+  .heart:nth-child(12) {
+    bottom: 0;
+    left: 55%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 4.6s;
+  
+  }
+  .heart:nth-child(13) {
+    bottom: 0;
+    left: 60%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 6.5s;
+  }
+  .heart:nth-child(14) {
+    bottom: 0;
+    left: 65%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 3.4s;
+  
+  }
+  .heart:nth-child(15) {
+    bottom: 0;
+    left: 70%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 7.3s;
+  }
+  .heart:nth-child(16) {
+    bottom: 0;
+    left: 75%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 1.5s;
+  
+  }
+  .heart:nth-child(17) {
+    bottom: 0;
+    left: 80%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 8.2s;
+  }
+  .heart:nth-child(18) {
+    bottom: 0;
+    left: 85%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 4.2s;
+  
+  }
+  .heart:nth-child(19) {
+    bottom: 0;
+    left: 90%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 8.6s;
+  }
+  .heart:nth-child(20) {
+    bottom: 0;
+    left: 95%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 3s;
+  
+  }
+  .heart:nth-child(21) {
+    bottom: 0;
+    left: 100%;
+    opacity: 0;
+    animation: love 5s ease-in-out infinite 6s;
+  }
+  @keyframes love {
+    0% {
+      bottom: 0;
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+  
+      bottom: 100vh;
+    }
+  }
